@@ -1,0 +1,40 @@
+[
+  { "inputs": [], "stateMutability": "nonpayable", "type": "constructor" },
+  {
+    "inputs": [
+      { "internalType": "uint256", "name": "wolfId", "type": "uint256" },
+      { "internalType": "address", "name": "victim", "type": "address" },
+      { "internalType": "uint256", "name": "minReceive", "type": "uint256" }
+    ],
+    "name": "eat",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      { "internalType": "uint256", "name": "ratio", "type": "uint256" }
+    ],
+    "name": "setDefaultRatio",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      { "internalType": "address", "name": "user", "type": "address" },
+      { "internalType": "uint256", "name": "ratio", "type": "uint256" }
+    ],
+    "name": "setRatioForUser",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [{ "internalType": "address", "name": "", "type": "address" }],
+    "name": "userRatio",
+    "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]
