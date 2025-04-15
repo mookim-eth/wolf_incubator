@@ -1,29 +1,12 @@
-This is a [RainbowKit](https://rainbowkit.com) + [wagmi](https://wagmi.sh) + [Next.js](https://nextjs.org/) project bootstrapped with [`create-rainbowkit`](/packages/create-rainbowkit).
+## Wolf Incubator
 
-## Getting Started
+https://wolf.moo.kim/
 
-First, run the development server:
+### 🤔 What is this service?
+Wolf Incubator provides automatic feeding for your Wolf NFTs to prevent them from starving. This is a service for the SHEEP game on Sonic, but we are not affiliated with or endorsed by the game's creators.
 
-```bash
-npm run dev
-```
+### ⚙️ How does Wolf Incubator work?
+Our service keeps an eye on your wolves. When they get hungry, we automatically feed them using the SHEEP tokens they would normally earn. This ensures they never starve! After feeding, we handle the process of collecting the rewards, take a small service fee, and send the rest directly to your wallet.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-## Learn More
-
-To learn more about this stack, take a look at the following resources:
-
-- [RainbowKit Documentation](https://rainbowkit.com) - Learn how to customize your wallet connection flow.
-- [wagmi Documentation](https://wagmi.sh) - Learn how to interact with Ethereum.
-- [Next.js Documentation](https://nextjs.org/docs) - Learn how to build a Next.js application.
-
-You can check out [the RainbowKit GitHub repository](https://github.com/rainbow-me/rainbowkit) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### 🛡️ Is this service secure?
+Absolutely. When you authorize Wolf Incubator, you're only giving our smart contract permission to perform the feeding action on your behalf. We never gain control of your Wolf NFTs or other assets. You can view our verified contract code on SonicScan for full transparency, and you can revoke the authorization at any time, instantly stopping the service.
